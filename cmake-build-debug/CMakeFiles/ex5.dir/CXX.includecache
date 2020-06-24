@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/michael/Desktop/University/C/Exercises/ex5/RecommenderSystem.cpp
+RecommenderSystem.h
+/cygdrive/c/Users/michael/Desktop/University/C/Exercises/ex5/RecommenderSystem.h
+fstream
+-
+iostream
+-
+sstream
+-
+cmath
+-
+algorithm
+-
+
+/cygdrive/c/Users/michael/Desktop/University/C/Exercises/ex5/RecommenderSystem.h
+vector
+-
+numeric
+-
+iostream
+-
+string
+-
+map
+-
+
