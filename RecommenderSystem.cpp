@@ -141,11 +141,11 @@ std::string RecommenderSystem::recommendByContent(const std::string &userName)
 
 std::vector<double> RecommenderSystem::_getNorm(const std::string &user)
 {
-    auto n = (double) _clientsRanksNum[user];
+    double n = _clientsRanksNum[user];
     double avg = 0.0;
-    if (n != 0)
+    if (n != 0.0)
     {
-        avg = std::accumulate(_clients[user].begin(), _clients[user].end(), 0.0) / n;
+        avg = std::accumulate(_clients[user].begin(), _clients[user].end(), 0.0) * (1 / n);
     }
     std::vector<double> curNorm(_clients[user]);
     for (double &elem : curNorm)
@@ -161,7 +161,7 @@ RecommenderSystem::_createPrefVec(const std::string &user, const std::vector<dou
     std::vector<double> prefVec(_movies[_movieNames[0]].size());
     for (std::vector<double>::size_type i = 0; i < _clients[user].size(); i++)
     {
-        if (curNorm[i] != 0)
+        if (curNorm[i] != 0.0)
         {
             double scalar = curNorm[i];
             std::vector<double> curMovie(_movies[_movieNames[i]]);
@@ -268,7 +268,7 @@ RecommenderSystem::predictMovieScoreForUser(const std::string &movieName, const 
         std::map<std::string, double> clientHistory;
         for (size_t i = 0; i < _movieNames.size(); i++) // create map to users ratings
         {
-            if (_clients[userName][i] != 0)
+            if (_clients[userName][i] != 0.0)
             {
                 clientHistory[_movieNames[i]] = _clients[userName][i];
             }
@@ -296,7 +296,7 @@ std::string RecommenderSystem::recommendByCF(const std::string &userName, int k)
         double bestScore = -2.0;
         for (size_t i = 0; i < _movieNames.size(); i++) // create map to users ratings
         {
-            if (_clients[userName][i] == 0)
+            if (_clients[userName][i] == 0.0)
             {
                 double curScore = predictMovieScoreForUser(_movieNames[i], userName, k);
                 if (bestScore < curScore)
