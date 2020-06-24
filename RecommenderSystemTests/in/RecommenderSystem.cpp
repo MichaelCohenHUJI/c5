@@ -301,7 +301,7 @@ std::string RecommenderSystem::recommendByCF(const std::string &userName, int k)
             if (_clients[userName][i] == 0.0)
             {
                 double curScore = predictMovieScoreForUser(_movieNames[i], userName, k);
-                if (bestScore < curScore && bestScore < 10.0)
+                if (bestScore < curScore)
                 {
                     bestScore = curScore;
                     bestPrediction = _movieNames[i];
