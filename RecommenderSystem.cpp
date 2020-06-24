@@ -316,15 +316,5 @@ std::string RecommenderSystem::recommendByCF(const std::string &userName, int k)
 }
 
 
-int main()
-{
-    std::string moviePath = "../movies_big.txt";
-    std::string ranksPath = "../ranks_big.txt";
-    RecommenderSystem obj;
-    obj.loadData(moviePath, ranksPath);
-    std::cout << obj.predictMovieScoreForUser("InPraiseofLove", "Reina", 284) << std::endl;
-    std::cout << obj.predictMovieScoreForUser("TheCranesAreFlying", "Reina", 284) << std::endl;
-    std::cout << obj.predictMovieScoreForUser("MadMax2", "Reina", 284) << std::endl;
-    std::cout << obj.recommendByCF("Reina", 284) << std::endl;
-}
+
 
