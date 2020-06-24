@@ -61,8 +61,8 @@ int RecommenderSystem::loadData(const std::string &moviesAttributesFilePath,
             }
             double val;
             while (lineStream >> val) _movies[movieName].push_back(val);
-            //std::cout << movieName << std::endl; //r
-            //printdVec(_movies[movieName]); //r
+//            std::cout << movieName << std::endl; //r
+//            printdVec(_movies[movieName]); //r
         }
 
     }
@@ -107,7 +107,7 @@ int RecommenderSystem::loadData(const std::string &moviesAttributesFilePath,
                     }
                 }
 //                std::cout << clientName << " " << _clientsRanksNum[clientName] << std::endl; //r
-                //printdVec(_clients[clientName]); //r
+//                printdVec(_clients[clientName]); //r
             }
             i = 1;
         }
@@ -127,10 +127,10 @@ std::string RecommenderSystem::recommendByContent(const std::string &userName)
     {// normalization:
         std::vector<double> curNorm = _getNorm(userName);
         // create pref vector:
-//        printdVec(curNorm);
+        printdVec(curNorm);
 //        std::cout << _movieNames[0] << std::endl;
         std::vector<double> prefVec = _createPrefVec(userName, curNorm);
-//        printdVec(prefVec);
+        printdVec(prefVec);
         return _findMovieByPref(userName, prefVec).name;
     }
     else
@@ -267,11 +267,12 @@ RecommenderSystem::predictMovieScoreForUser(const std::string &movieName, const 
         double numerator = 0.0;
         double denominator = 0.0;
         std::map<std::string, double> clientHistory;
-        for (size_t i = 0; i < _movieNames.size(); i++) // create map to users ratings
-        {
+        for (std::vector<std::string>::size_type i = 0; i < _movieNames.size(); i++)
+        { // create map to users ratings
             if (_clients[userName][i] != 0.0)
             {
                 clientHistory[_movieNames[i]] = _clients[userName][i];
+                std::cout << _movieNames[i] << " " << _clients[userName][i];
             }
         }
         std::vector<resMovie> sorted = _findMovieByHistory(_movies[movieName], clientHistory);
@@ -321,3 +322,11 @@ bool RecommenderSystem::_compResMovie(const resMovie &lhs, const resMovie &rhs) 
 
 
 
+//int main()
+//{
+//    std::string moviePath = "../movies_small.txt";
+//    std::string ranksPath = "../ranks_small.txt";
+//    RecommenderSystem obj;
+//    obj.loadData(moviePath, ranksPath);
+//    std::cout << obj.predictMovieScoreForUser("ArabianNights", "Christopher") << std::endl;
+//}
