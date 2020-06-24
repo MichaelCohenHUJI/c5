@@ -145,7 +145,8 @@ std::vector<double> RecommenderSystem::_getNorm(const std::string &user)
     double avg = 0.0;
     if (n != 0.0)
     {
-        avg = std::accumulate(_clients[user].begin(), _clients[user].end(), 0.0) * (1 / n);
+        avg = std::accumulate(_clients[user].begin(), _clients[user].end(), 0.0);
+        avg = avg * (1 / n);
     }
     std::vector<double> curNorm(_clients[user]);
     for (double &elem : curNorm)
@@ -169,11 +170,11 @@ RecommenderSystem::_createPrefVec(const std::string &user, const std::vector<dou
 //                printdVec(_movies[_movieNames[i]]);
             for (double &elem : curMovie)
             {
-                elem = scalar * elem;
+                elem *= scalar;
             }
             for (std::vector<double>::size_type j = 0; j < prefVec.size(); j++)
             {
-                prefVec[j] = prefVec[j] + curMovie[j];
+                prefVec[j] += curMovie[j];
             }
         }
     }// finding the closest movie vector in the helper method
@@ -218,7 +219,7 @@ double RecommenderSystem::_norm(const std::vector<double> &vec)
     double sum = 0.0;
     for (double elem : vec)
     {
-        sum += elem * elem;
+        sum += pow(elem, 2.0);
     }
     return sqrt(sum);
 }
@@ -317,7 +318,6 @@ std::string RecommenderSystem::recommendByCF(const std::string &userName, int k)
 bool RecommenderSystem::_compResMovie(const resMovie &lhs, const resMovie &rhs) {
     return lhs.score > rhs.score;
 }
-
 
 
 
