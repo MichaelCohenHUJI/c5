@@ -57,7 +57,7 @@ int RecommenderSystem::loadData(const std::string &moviesAttributesFilePath,
             std::istringstream lineStream(line);
             if (!(lineStream >> movieName))
             {
-                return 0;
+                return 1;
             }
             double val;
             while (lineStream >> val) _movies[movieName].push_back(val);
@@ -69,7 +69,7 @@ int RecommenderSystem::loadData(const std::string &moviesAttributesFilePath,
     else
     {
         printMessage(OPEN_FAIL, moviesAttributesFilePath);
-        return 0;
+        return 1;
     }
     std::ifstream clients(userRanksFilePath);
     if (clients)
@@ -90,7 +90,7 @@ int RecommenderSystem::loadData(const std::string &moviesAttributesFilePath,
                 std::string clientName;
                 if (!(lineStream >> clientName))
                 {
-                    return 0;
+                    return 1;
                 }
                 std::string val;
                 while (lineStream >> val)
@@ -115,9 +115,9 @@ int RecommenderSystem::loadData(const std::string &moviesAttributesFilePath,
     else
     {
         printMessage(OPEN_FAIL, userRanksFilePath);
-        return 0;
+        return 1;
     }
-    return 1;
+    return 0;
 }
 
 
@@ -301,7 +301,7 @@ std::string RecommenderSystem::recommendByCF(const std::string &userName, int k)
             if (_clients[userName][i] == 0.0)
             {
                 double curScore = predictMovieScoreForUser(_movieNames[i], userName, k);
-                if (bestScore < curScore)
+                if (bestScore < curScore && bestScore < 10.0)
                 {
                     bestScore = curScore;
                     bestPrediction = _movieNames[i];

@@ -38,7 +38,10 @@ void printStrVec(const std::vector<std::string> &vec)
 {
     for (const std::string& elem : vec)
     {
-        std::cout << elem << " ";
+        if (elem == "Aliens" || elem == "Partiedecampagne")
+        {
+            std::cout << elem << " ";
+        }
     }
     std::cout << std::endl;
 }
@@ -83,7 +86,7 @@ int RecommenderSystem::loadData(const std::string &moviesAttributesFilePath,
             {
                 std::string val;
                 while (lineStream >> val) _movieNames.push_back(val);
-//                printStrVec(_movieNames); //r
+                printStrVec(_movieNames); //r
             }
             else
             {
@@ -301,8 +304,10 @@ std::string RecommenderSystem::recommendByCF(const std::string &userName, int k)
             if (_clients[userName][i] == 0.0)
             {
                 double curScore = predictMovieScoreForUser(_movieNames[i], userName, k);
-                if (bestScore < curScore)
+                if (curScore > bestScore && bestScore < 10.0)
                 {
+                    std::cout << _movieNames[i] << " " << curScore <<std::endl;
+                    std::cout << bestPrediction<< " " << bestScore << std::endl;
                     bestScore = curScore;
                     bestPrediction = _movieNames[i];
                 }
@@ -322,11 +327,15 @@ bool RecommenderSystem::_compResMovie(const resMovie &lhs, const resMovie &rhs) 
 
 
 
-//int main()
-//{
-//    std::string moviePath = "../movies_small.txt";
-//    std::string ranksPath = "../ranks_small.txt";
-//    RecommenderSystem obj;
-//    obj.loadData(moviePath, ranksPath);
-//    std::cout << obj.predictMovieScoreForUser("ArabianNights", "Christopher") << std::endl;
-//}
+int main()
+{
+
+    std::string moviePath = "../movies_big.txt";
+    std::string ranksPath = "../ranks_big.txt";
+    RecommenderSystem obj;
+    obj.loadData(moviePath, ranksPath);
+    std::cout << obj.predictMovieScoreForUser("Partiedecampagne", "Miles", 2) << std::endl;
+    std::cout << obj.predictMovieScoreForUser("Aliens", "Miles", 2) << std::endl;
+    std::cout << obj.recommendByCF("Miles", 2) << std::endl;
+
+}
