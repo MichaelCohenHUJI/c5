@@ -253,8 +253,7 @@ std::vector<resMovie> RecommenderSystem::_findMovieByHistory(const std::vector<d
         resMovie curMovie = {.score = curScore, .name = pair.first};
         res.push_back(curMovie);
     }
-    std::sort (res.begin(), res.end());
-    std::reverse(res.begin(), res.end());
+    std::sort (res.begin(), res.end(), _compResMovie);
     return res;
 }
 
@@ -313,6 +312,10 @@ std::string RecommenderSystem::recommendByCF(const std::string &userName, int k)
     {
         return INVALID_USER;
     }
+}
+
+bool RecommenderSystem::_compResMovie(const resMovie &lhs, const resMovie &rhs) {
+    return lhs.score > rhs.score;
 }
 
 

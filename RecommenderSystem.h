@@ -14,8 +14,8 @@
 #include <map>
 
 //need to have:
-typedef struct {double score; std::string name;} resMovie;
-bool operator<(const resMovie &lhs, const resMovie &rhs) { return lhs.score < rhs.score; }
+typedef struct
+{double score; std::string name;} resMovie;
 
 
 class RecommenderSystem
@@ -32,6 +32,7 @@ private:
     std::vector<double> _getNorm(const std::string &user);
     std::vector<resMovie> _findMovieByHistory(const std::vector<double> &movieAttributes,
                                  const std::map<std::string, double> &userHistory);
+    static bool _compResMovie(const resMovie &lhs, const resMovie &rhs);
 public:
     int loadData(const std::string &moviesAttributesFilePath, const std::string &userRanksFilePath);
     std::string recommendByContent(const std::string &userName);
