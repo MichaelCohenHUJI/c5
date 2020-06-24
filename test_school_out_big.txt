@@ -1,0 +1,1500 @@
+[RecommendByCF] Name = Treasure; k = 10:
+ChungkingExpress
+
+[RecommendByCF] Name = Joel; k = 1:
+TheAfricanQueen
+
+[RecommendByContent] Name = Brooklynn:
+ButchCassidyandtheSundanceKid
+
+[RecommendByContent] Name = Kameron:
+DancerintheDark
+
+[RecommendByCF] Name = Chance; k = 2:
+Intolerance
+
+[RecommendByContent] Name = Heath:
+TheCranesAreFlying
+
+[RecommendByCF] Name = Bailey; k = 6:
+Alien
+
+[RecommendByCF] Name = Treasure; k = 8:
+HighNoon
+
+[PredictMovieScore] Movie = Superman; Name = Zion; k = 10:
+4.99235
+
+[RecommendByContent] Name = Harvey:
+TheSeventhSeal
+
+[RecommendByCF] Name = Koa; k = 3:
+OurHospitality
+
+[RecommendByContent] Name = Princeton:
+DayofWrath
+
+[RecommendByCF] Name = Roger; k = 2:
+TheDivingBellandtheButterfly
+
+[PredictMovieScore] Movie = NoCountryforOldMen; Name = Jon; k = 4:
+6.74904
+
+[PredictMovieScore] Movie = FelliniSatyricon; Name = Samara; k = 4:
+6.51293
+
+[PredictMovieScore] Movie = Naked; Name = Clarissa; k = 1:
+8
+
+[RecommendByCF] Name = Aliana; k = 4:
+SyndromesandaCentury
+
+[RecommendByContent] Name = Kyrie:
+ApocalypseNow
+
+[RecommendByContent] Name = Elisha:
+ChungkingExpress
+
+[RecommendByCF] Name = Charles; k = 6:
+Vivresavie
+
+[RecommendByCF] Name = Jana; k = 6:
+IAmCuba
+
+[PredictMovieScore] Movie = TheThing; Name = Daniella; k = 2:
+7.00671
+
+[RecommendByContent] Name = Alyssa:
+AllQuietontheWesternFront
+
+[RecommendByCF] Name = Dustin; k = 3:
+RioBravo
+
+[RecommendByCF] Name = Louie; k = 3:
+Stagecoach
+
+[RecommendByContent] Name = Daisy:
+ThePalmBeachStory
+
+[RecommendByContent] Name = Brielle:
+ThisisSpinalTap
+
+[RecommendByCF] Name = Arely; k = 4:
+NightsofCabiria
+
+[PredictMovieScore] Movie = DustintheWind; Name = Braelyn; k = 4:
+6.48018
+
+[RecommendByContent] Name = Brenna:
+TheNuttyProfessor
+
+[PredictMovieScore] Movie = AsIWasMovingAheadOccasionallyISawBriefGlimpsesofBeauty; Name = Kendra; k = 4:
+6.96845
+
+[RecommendByCF] Name = Heavenly; k = 1:
+AllAboutEve
+
+[RecommendByContent] Name = Noor:
+TheBreakfastClub
+
+[RecommendByContent] Name = Alanna:
+TheHolyMountain
+
+[PredictMovieScore] Movie = RussianArk; Name = Randy; k = 4:
+4.48838
+
+[PredictMovieScore] Movie = MyOwnPrivateIdaho; Name = Leonel; k = 4:
+4.75198
+
+[RecommendByCF] Name = Pedro; k = 8:
+ThePhantomofLiberty
+
+[PredictMovieScore] Movie = ApocalypseNow; Name = Princess; k = 3:
+5.99685
+
+[RecommendByContent] Name = Stefan:
+DayforNight
+
+[PredictMovieScore] Movie = Yeelen; Name = Caylee; k = 7:
+4.72188
+
+[RecommendByCF] Name = Merrick; k = 6:
+TheSpiritoftheBeehive
+
+[RecommendByCF] Name = Heaven; k = 5:
+TheMarriageofMariaBraun
+
+[PredictMovieScore] Movie = Sunrise; Name = Poppy; k = 9:
+6.99803
+
+[RecommendByCF] Name = Aliya; k = 4:
+Sideways
+
+[RecommendByCF] Name = Jamir; k = 6:
+TheTreeofWoodenClogs
+
+[RecommendByCF] Name = Bailey; k = 4:
+TheIncredibleShrinkingMan
+
+[RecommendByContent] Name = Giovanni:
+InglouriousBasterds
+
+[RecommendByCF] Name = Amanda; k = 5:
+Vagabond
+
+[PredictMovieScore] Movie = PeepingTom; Name = Alberto; k = 6:
+5.67065
+
+[RecommendByContent] Name = Sophia:
+EdwardScissorhands
+
+[RecommendByCF] Name = Alannah; k = 8:
+Alien
+
+[RecommendByContent] Name = Kamryn:
+TimeoftheGypsies
+
+[PredictMovieScore] Movie = TheTexasChainsawMassacre; Name = Francesca; k = 7:
+5.41836
+
+[RecommendByContent] Name = Karina:
+TheGraduate
+
+[PredictMovieScore] Movie = KillerofSheep; Name = Karlee; k = 4:
+3.51364
+
+[RecommendByCF] Name = Laylah; k = 4:
+BrokebackMountain
+
+[RecommendByContent] Name = Kamryn:
+TimeoftheGypsies
+
+[RecommendByContent] Name = Kace:
+AnnieHall
+
+[RecommendByCF] Name = Chloe; k = 6:
+BacktotheFuture
+
+[RecommendByContent] Name = Addilynn:
+MidnightCowboy
+
+[RecommendByCF] Name = Miles; k = 4:
+Aliens
+
+[RecommendByCF] Name = Brooke; k = 9:
+BlueVelvet
+
+[PredictMovieScore] Movie = Sunrise; Name = Cheyenne; k = 9:
+6.10543
+
+[PredictMovieScore] Movie = Intolerance; Name = Paris; k = 4:
+6.76351
+
+[RecommendByCF] Name = Lorenzo; k = 8:
+TheRedCircle
+
+[RecommendByCF] Name = Noelle; k = 4:
+Z
+
+[RecommendByContent] Name = Tommy:
+VengeanceisMine
+
+[PredictMovieScore] Movie = TheBalladofNarayama; Name = Sage; k = 10:
+4.80649
+
+[PredictMovieScore] Movie = AAngelatMyTablen; Name = Cohen; k = 5:
+6.00201
+
+[RecommendByContent] Name = Dariel:
+FannyandAlexander
+
+[RecommendByCF] Name = Miles; k = 8:
+DotheRightThing
+
+[RecommendByContent] Name = Winston:
+SevenWomen
+
+[RecommendByCF] Name = Julieta; k = 8:
+CloseEncountersoftheThirdKind
+
+[PredictMovieScore] Movie = Rocky; Name = Lachlan; k = 4:
+4.98862
+
+[RecommendByContent] Name = Julia:
+Chikamatsumonogatari
+
+[RecommendByContent] Name = Armani:
+BeforeSunset
+
+[RecommendByCF] Name = Jamir; k = 4:
+AGrinWithoutaCat
+
+[RecommendByCF] Name = Julian; k = 4:
+TheRoyalTenenbaums
+
+[PredictMovieScore] Movie = Magnolia; Name = Kylie; k = 5:
+5.78787
+
+[RecommendByCF] Name = Gloria; k = 2:
+TheRecklessMoment
+
+[RecommendByCF] Name = Kylen; k = 5:
+Koyaanisqatsi
+
+[PredictMovieScore] Movie = TwinPeaks_FireWalkwithMe; Name = Bonnie; k = 1:
+9
+
+[RecommendByCF] Name = Randy; k = 8:
+LastYearatMarienbad
+
+[PredictMovieScore] Movie = BlowOut; Name = Karina; k = 7:
+5.58007
+
+[PredictMovieScore] Movie = NightoftheLivingDead; Name = Jaiden; k = 8:
+5.61525
+
+[RecommendByCF] Name = Kairi; k = 9:
+TheGraduate
+
+[RecommendByContent] Name = Reina:
+TheCranesAreFlying
+
+[RecommendByContent] Name = Raegan:
+RioBravo
+
+[PredictMovieScore] Movie = DayforNight; Name = Trey; k = 6:
+6.33527
+
+[RecommendByCF] Name = Lauren; k = 10:
+Avatar
+
+[RecommendByCF] Name = Liana; k = 5:
+TheCrimeofMonsieurLange
+
+[RecommendByCF] Name = Cayson; k = 2:
+Underground
+
+[RecommendByCF] Name = Carolyn; k = 3:
+BarrenLives
+
+[RecommendByCF] Name = Ariadne; k = 8:
+EntertheDragon
+
+[RecommendByCF] Name = Kylen; k = 6:
+GentlemenPreferBlondes
+
+[RecommendByCF] Name = Carolyn; k = 7:
+SawdustandTinsel
+
+[RecommendByContent] Name = Fernanda:
+Moonfleet
+
+[PredictMovieScore] Movie = ZabriskiePoint; Name = Braelyn; k = 9:
+8.10929
+
+[RecommendByCF] Name = Noe; k = 8:
+TheLordoftheRings_TheFellowshipoftheRing
+
+[RecommendByCF] Name = Cooper; k = 6:
+BacktotheFuture
+
+[RecommendByCF] Name = Emory; k = 9:
+SevenSamurai
+
+[RecommendByContent] Name = Louie:
+Partiedecampagne
+
+[RecommendByContent] Name = Destiny:
+GetCarter
+
+[RecommendByCF] Name = Cayson; k = 7:
+AshesandDiamonds
+
+[RecommendByContent] Name = Eliana:
+PinkFlamingos
+
+[RecommendByCF] Name = Elisha; k = 8:
+DiaryofaCountryPriest
+
+[RecommendByContent] Name = Jeremiah:
+WingsofDesire
+
+[RecommendByContent] Name = Trinity:
+Hitler_AFilmfromGermany
+
+[PredictMovieScore] Movie = Dekalog; Name = Laylah; k = 5:
+5.60057
+
+[RecommendByContent] Name = Emmanuel:
+CatPeople
+
+[RecommendByContent] Name = Zainab:
+TheGodfather
+
+[RecommendByContent] Name = Rylan:
+AGrinWithoutaCat
+
+[PredictMovieScore] Movie = ToLive; Name = Ace; k = 7:
+5.42872
+
+[RecommendByCF] Name = Ariadne; k = 6:
+ThePhiladelphiaStory
+
+[RecommendByCF] Name = Francesca; k = 1:
+BacktotheFuture
+
+[RecommendByCF] Name = Amelia; k = 9:
+Shane
+
+[RecommendByCF] Name = Kameron; k = 4:
+BoogieNights
+
+[RecommendByContent] Name = Simon:
+AllThatJazz
+
+[PredictMovieScore] Movie = 2001_ASpaceOdyssey; Name = Marleigh; k = 5:
+5.80705
+
+[RecommendByCF] Name = Jeffrey; k = 9:
+DirtyHarry
+
+[PredictMovieScore] Movie = Wanda; Name = Mila; k = 7:
+5.43165
+
+[PredictMovieScore] Movie = TheGoodBadandtheUgly; Name = Khalil; k = 5:
+4.19934
+
+[RecommendByCF] Name = Saoirse; k = 7:
+SmilesofaSummerNight
+
+[RecommendByCF] Name = Javon; k = 6:
+Orlando
+
+[RecommendByContent] Name = Kyrie:
+ApocalypseNow
+
+[RecommendByContent] Name = Jennifer:
+MasculinFeminin
+
+[RecommendByContent] Name = Savanna:
+TalktoHer
+
+[RecommendByCF] Name = Cecilia; k = 8:
+BloodSimple
+
+[RecommendByCF] Name = Melody; k = 7:
+Ordet
+
+[RecommendByContent] Name = Kyng:
+TheDamned
+
+[RecommendByCF] Name = Randy; k = 10:
+The39Steps
+
+[PredictMovieScore] Movie = BrideofFrankenstein; Name = Everlee; k = 6:
+3.50025
+
+[RecommendByCF] Name = Salvador; k = 1:
+Husbands
+
+[RecommendByCF] Name = Corinne; k = 2:
+InlandEmpire
+
+[RecommendByCF] Name = Jaiden; k = 9:
+Lolita
+
+[PredictMovieScore] Movie = DeadRingers; Name = Treasure; k = 4:
+7.25419
+
+[RecommendByContent] Name = Jaxxon:
+ThePhantomCarriage
+
+[RecommendByCF] Name = Dariel; k = 8:
+Akira
+
+[RecommendByContent] Name = Adeline:
+Crash
+
+[PredictMovieScore] Movie = BadTiming; Name = Franco; k = 10:
+4.90578
+
+[RecommendByCF] Name = Julieta; k = 5:
+Hitler_AFilmfromGermany
+
+[PredictMovieScore] Movie = BarrenLives; Name = Isabel; k = 6:
+4.99983
+
+[RecommendByContent] Name = Simone:
+StrangerThanParadise
+
+[RecommendByCF] Name = Myla; k = 5:
+PatherPanchali
+
+[PredictMovieScore] Movie = InlandEmpire; Name = Harvey; k = 6:
+5.66851
+
+[RecommendByContent] Name = Lilyana:
+TheQuietMan
+
+[RecommendByCF] Name = Leo; k = 9:
+LessonsofDarkness
+
+[RecommendByContent] Name = Serenity:
+TheBigHeat
+
+[RecommendByContent] Name = Sutton:
+NearDark
+
+[RecommendByContent] Name = Rhett:
+LateSpring
+
+[RecommendByCF] Name = Joyce; k = 6:
+EvilDeadII
+
+[RecommendByCF] Name = Jonas; k = 10:
+DuelintheSun
+
+[RecommendByContent] Name = Killian:
+TheNuttyProfessor
+
+[RecommendByCF] Name = Cesar; k = 8:
+Orpheus
+
+[PredictMovieScore] Movie = Unforgiven; Name = Zahir; k = 10:
+5.20096
+
+[RecommendByContent] Name = Finnley:
+GentlemenPreferBlondes
+
+[RecommendByCF] Name = Romina; k = 4:
+Paisan
+
+[PredictMovieScore] Movie = BrandedtoKill; Name = Kassandra; k = 5:
+5.79383
+
+[RecommendByContent] Name = Porter:
+Diary
+
+[RecommendByContent] Name = Amaya:
+Badlands
+
+[RecommendByContent] Name = Jennifer:
+MasculinFeminin
+
+[PredictMovieScore] Movie = TheTigerofEschnapur; Name = Makayla; k = 10:
+5.49775
+
+[RecommendByCF] Name = Bonnie; k = 5:
+Fitzcarraldo
+
+[RecommendByCF] Name = Belle; k = 4:
+TheLonelinessoftheLongDistanceRunner
+
+[RecommendByContent] Name = Aniyah:
+FatGirl
+
+[RecommendByContent] Name = Zainab:
+TheGodfather
+
+[PredictMovieScore] Movie = Carrie; Name = Fernanda; k = 4:
+6.75135
+
+[RecommendByCF] Name = Lachlan; k = 4:
+AMomentofInnocence
+
+[PredictMovieScore] Movie = Carodiario; Name = Bowen; k = 5:
+7.20057
+
+[RecommendByContent] Name = Julia:
+Chikamatsumonogatari
+
+[PredictMovieScore] Movie = SevenWomen; Name = Asa; k = 9:
+4.09638
+
+[PredictMovieScore] Movie = TheRedCircle; Name = Cody; k = 9:
+4.78539
+
+[RecommendByCF] Name = Gloria; k = 9:
+Ludwig
+
+[PredictMovieScore] Movie = WomenontheVergeofaNervousBreakdown; Name = Legend; k = 2:
+9.00396
+
+[PredictMovieScore] Movie = WeAllLovedEachOtherSoMuch; Name = Amara; k = 8:
+6.61152
+
+[PredictMovieScore] Movie = TheDamned; Name = Luna; k = 10:
+5.29954
+
+[RecommendByCF] Name = Heath; k = 3:
+ChronicleofaSummer
+
+[RecommendByContent] Name = Amaris:
+Rope
+
+[RecommendByContent] Name = Miley:
+EdWood
+
+[PredictMovieScore] Movie = CityLights; Name = Evalyn; k = 3:
+5.68466
+
+[RecommendByContent] Name = Priscilla:
+Jaws
+
+[PredictMovieScore] Movie = Shane; Name = Kody; k = 1:
+8
+
+[RecommendByContent] Name = Julieta:
+HighandLow
+
+[RecommendByCF] Name = Skyla; k = 9:
+TheBluesBrothers
+
+[PredictMovieScore] Movie = ManoftheWest; Name = Koa; k = 7:
+4.99197
+
+[RecommendByContent] Name = Laylah:
+DayofWrath
+
+[RecommendByContent] Name = Julieta:
+HighandLow
+
+[RecommendByContent] Name = Jasper:
+StrangersWhenWeMeet
+
+[PredictMovieScore] Movie = Scarecrow; Name = Louie; k = 5:
+7.39808
+
+[PredictMovieScore] Movie = AssaultonPrecinct13; Name = Skyla; k = 9:
+7.22812
+
+[PredictMovieScore] Movie = TheVirginSpring; Name = Braelyn; k = 2:
+7.50203
+
+[RecommendByContent] Name = Samuel:
+TheTreeofWoodenClogs
+
+[PredictMovieScore] Movie = Sanssoleil; Name = Everlee; k = 4:
+3.7533
+
+[PredictMovieScore] Movie = LoveStreams; Name = Alivia; k = 1:
+5
+
+[RecommendByCF] Name = Draven; k = 4:
+TheManwithaMovieCamera
+
+[RecommendByContent] Name = Luke:
+DustintheWind
+
+[PredictMovieScore] Movie = DaysofHeaven; Name = Samara; k = 10:
+4.90049
+
+[RecommendByContent] Name = Jeremiah:
+WingsofDesire
+
+[RecommendByContent] Name = Magnus:
+GentlemenPreferBlondes
+
+[RecommendByContent] Name = Jazlynn:
+TheCrowd
+
+[RecommendByCF] Name = Kelly; k = 8:
+TheSacrifice
+
+[RecommendByCF] Name = Rayden; k = 8:
+LoveandDeath
+
+[RecommendByContent] Name = Harrison:
+BreakingtheWaves
+
+[RecommendByContent] Name = Cayson:
+Sanssoleil
+
+[PredictMovieScore] Movie = Frankenstein; Name = Talon; k = 7:
+6.57321
+
+[RecommendByContent] Name = Naomi:
+WestSideStory
+
+[RecommendByCF] Name = Dangelo; k = 5:
+TheRisetoPowerofLouisXIV
+
+[RecommendByCF] Name = Raphael; k = 4:
+Ludwig
+
+[RecommendByCF] Name = Brooklynn; k = 1:
+TheMagnificentAmbersons
+
+[RecommendByContent] Name = Clark:
+BytheBluestofSeas
+
+[RecommendByContent] Name = Colson:
+Dekalog
+
+[RecommendByCF] Name = Fernanda; k = 8:
+AssaultonPrecinct13
+
+[RecommendByContent] Name = Chloe:
+Ninotchka
+
+[RecommendByCF] Name = Rhett; k = 3:
+FloatingClouds
+
+[PredictMovieScore] Movie = TheLongDayCloses; Name = Davis; k = 9:
+6.11324
+
+[RecommendByCF] Name = Blakely; k = 6:
+InPraiseofLove
+
+[RecommendByCF] Name = Leah; k = 4:
+Diary
+
+[RecommendByCF] Name = Marleigh; k = 5:
+SanshotheBailiff
+
+[RecommendByCF] Name = Addilynn; k = 4:
+TheSacrifice
+
+[RecommendByCF] Name = Amaris; k = 5:
+ZeroforConduct
+
+[RecommendByContent] Name = Ellie:
+TheDamned
+
+[RecommendByContent] Name = Cecilia:
+TheEmpireStrikesBack
+
+[RecommendByContent] Name = Sky:
+TieXiQu_WestoftheTracks
+
+[RecommendByCF] Name = Amaya; k = 2:
+TheGodfather
+
+[RecommendByContent] Name = Jeremiah:
+WingsofDesire
+
+[RecommendByContent] Name = Heavenly:
+DoubleIndemnity
+
+[RecommendByContent] Name = Joyce:
+TheBigHeat
+
+[RecommendByContent] Name = Leah:
+TheParty
+
+[RecommendByCF] Name = Aspen; k = 1:
+TheAdventuresofPrinceAchmed
+
+[RecommendByCF] Name = Ismael; k = 6:
+SimonoftheDesert
+
+[PredictMovieScore] Movie = HolyMotors; Name = Miya; k = 7:
+7.56758
+
+[PredictMovieScore] Movie = Earth; Name = Graysen; k = 5:
+5.00212
+
+[RecommendByContent] Name = Rowan:
+Network
+
+[RecommendByContent] Name = Sage:
+ApocalypseNow
+
+[PredictMovieScore] Movie = TheRedShoes; Name = Maximo; k = 7:
+5.84111
+
+[RecommendByContent] Name = Princeton:
+DayofWrath
+
+[RecommendByContent] Name = Jon:
+Ludwig
+
+[RecommendByContent] Name = Kaiden:
+TheParty
+
+[RecommendByCF] Name = Luna; k = 7:
+EasyRider
+
+[RecommendByCF] Name = Mercy; k = 6:
+TheLadyfromShanghai
+
+[PredictMovieScore] Movie = LetterfromanUnknownWoman; Name = Sebastian; k = 3:
+5.67033
+
+[RecommendByCF] Name = Isabel; k = 7:
+HighNoon
+
+[RecommendByContent] Name = Simone:
+StrangerThanParadise
+
+[PredictMovieScore] Movie = ModernTimes; Name = Kylen; k = 4:
+7.73819
+
+[RecommendByContent] Name = Payton:
+TheBridgeontheRiverKwai
+
+[RecommendByCF] Name = Leif; k = 7:
+ShadowofaDoubt
+
+[RecommendByContent] Name = Julian:
+Wavelength
+
+[RecommendByCF] Name = Roy; k = 4:
+TheLustyMen
+
+[PredictMovieScore] Movie = MammaRoma; Name = Luke; k = 10:
+5.2839
+
+[RecommendByContent] Name = Alannah:
+AliceintheCities
+
+[RecommendByContent] Name = Ryland:
+TheAgeofInnocence
+
+[RecommendByContent] Name = Casey:
+RidetheHighCountry
+
+[RecommendByContent] Name = Fernanda:
+Moonfleet
+
+[RecommendByContent] Name = Legend:
+CrimesandMisdemeanors
+
+[RecommendByContent] Name = Zaylee:
+GoodFellas
+
+[RecommendByCF] Name = Ariadne; k = 3:
+ThePhiladelphiaStory
+
+[RecommendByContent] Name = Armando:
+TheGodfather
+
+[PredictMovieScore] Movie = ACanterburyTale; Name = Anya; k = 8:
+6.50217
+
+[RecommendByContent] Name = Samara:
+InlandEmpire
+
+[RecommendByContent] Name = Alana:
+TheyLivebyNight
+
+[RecommendByCF] Name = Elaine; k = 3:
+KingKong
+
+[PredictMovieScore] Movie = WestSideStory; Name = Titan; k = 8:
+5.87675
+
+[RecommendByContent] Name = Koa:
+ToLive
+
+[RecommendByContent] Name = Charlotte:
+CarnivalofSouls
+
+[PredictMovieScore] Movie = AmericanBeauty; Name = Aitana; k = 5:
+5.19388
+
+[RecommendByContent] Name = Luciana:
+TheLastLaugh
+
+[RecommendByContent] Name = Gabriela:
+ToHaveandHaveNot
+
+[RecommendByCF] Name = Saoirse; k = 6:
+FatGirl
+
+[PredictMovieScore] Movie = PeepingTom; Name = Desmond; k = 10:
+6.19358
+
+[PredictMovieScore] Movie = PointBlank; Name = Caylee; k = 8:
+5.00095
+
+[RecommendByContent] Name = Merrick:
+Pinocchio
+
+[PredictMovieScore] Movie = Videodrome; Name = Carolyn; k = 8:
+5.50202
+
+[RecommendByContent] Name = Jaden:
+BigDealonMadonnaStreet
+
+[RecommendByContent] Name = Evalyn:
+Chikamatsumonogatari
+
+[RecommendByContent] Name = Jayde:
+ThePiano
+
+[PredictMovieScore] Movie = TheEmpireStrikesBack; Name = Luciana; k = 5:
+6.19394
+
+[PredictMovieScore] Movie = VengeanceisMine; Name = Lilyana; k = 3:
+5.68585
+
+[PredictMovieScore] Movie = TheTrial; Name = Jasper; k = 10:
+5.609
+
+[RecommendByCF] Name = Cole; k = 10:
+Dumbo
+
+[RecommendByCF] Name = Maximo; k = 4:
+Walkabout
+
+[PredictMovieScore] Movie = Nosferatu; Name = Kendra; k = 1:
+2
+
+[RecommendByCF] Name = Desmond; k = 5:
+AceintheHole
+
+[RecommendByCF] Name = Astrid; k = 4:
+Aguirre_TheWrathofGod
+
+[PredictMovieScore] Movie = FataMorgana; Name = Wyatt; k = 7:
+7.00354
+
+[RecommendByContent] Name = Daniella:
+TheLastTemptationofChrist
+
+[RecommendByContent] Name = Skyla:
+Aparajito
+
+[RecommendByCF] Name = Louie; k = 6:
+Charulata
+
+[RecommendByContent] Name = Sergio:
+TheThinBlueLine
+
+[RecommendByContent] Name = Legend:
+CrimesandMisdemeanors
+
+[RecommendByCF] Name = Julia; k = 10:
+DersuUzala
+
+[RecommendByContent] Name = August:
+DazedandConfused
+
+[RecommendByCF] Name = Draven; k = 5:
+IndiaSong
+
+[RecommendByContent] Name = Dariel:
+FannyandAlexander
+
+[RecommendByCF] Name = Casey; k = 2:
+MadMax_FuryRoad
+
+[RecommendByCF] Name = Kinley; k = 9:
+TheEndofSummer
+
+[PredictMovieScore] Movie = HappyTogether; Name = Liana; k = 3:
+6.64838
+
+[RecommendByCF] Name = Corinne; k = 3:
+Casablanca
+
+[RecommendByCF] Name = Tommy; k = 7:
+FloatingClouds
+
+[PredictMovieScore] Movie = NanookoftheNorth; Name = Teresa; k = 6:
+6.00609
+
+[RecommendByCF] Name = Alvaro; k = 5:
+MeshesoftheAfternoon
+
+[RecommendByCF] Name = Myla; k = 10:
+SaturdayNightFever
+
+[RecommendByCF] Name = Cheyenne; k = 5:
+Muriel
+
+[RecommendByCF] Name = Jayde; k = 1:
+WrittenontheWind
+
+[RecommendByContent] Name = Wyatt:
+Possession
+
+[PredictMovieScore] Movie = M; Name = Orlando; k = 8:
+5.99131
+
+[RecommendByContent] Name = Dustin:
+Kwaidan
+
+[PredictMovieScore] Movie = TheManchurianCandidate; Name = Vienna; k = 4:
+6.00665
+
+[RecommendByContent] Name = Kameron:
+DancerintheDark
+
+[RecommendByContent] Name = Sonia:
+Carrie
+
+[PredictMovieScore] Movie = TheDoubleLifeofVeronique; Name = Maximo; k = 8:
+5.37308
+
+[PredictMovieScore] Movie = ElDorado; Name = Alisha; k = 5:
+5.00526
+
+[RecommendByContent] Name = Rene:
+TheTenant
+
+[RecommendByContent] Name = Kenia:
+TieXiQu_WestoftheTracks
+
+[RecommendByCF] Name = Bowen; k = 3:
+LastYearatMarienbad
+
+[RecommendByCF] Name = Stephen; k = 4:
+Terminator2_JudgmentDay
+
+[RecommendByContent] Name = Anton:
+ShanghaiExpress
+
+[RecommendByCF] Name = Hailey; k = 7:
+YellowEarth
+
+[RecommendByCF] Name = Makayla; k = 1:
+ThatObscureObjectofDesire
+
+[RecommendByContent] Name = Douglas:
+TheGraduate
+
+[RecommendByCF] Name = Brantley; k = 9:
+Shadows
+
+[RecommendByCF] Name = Brielle; k = 4:
+MotherIndia
+
+[PredictMovieScore] Movie = DeadRingers; Name = Raphael; k = 7:
+5.44081
+
+[PredictMovieScore] Movie = TouchofEvil; Name = Khloe; k = 2:
+5.99896
+
+[RecommendByCF] Name = Heath; k = 3:
+ChronicleofaSummer
+
+[PredictMovieScore] Movie = TheScarletEmpress; Name = Alberto; k = 10:
+5.99145
+
+[PredictMovieScore] Movie = Chinatown; Name = Mylah; k = 6:
+5.48931
+
+[RecommendByCF] Name = Bentlee; k = 3:
+TheAgeoftheEarth
+
+[RecommendByCF] Name = Brooke; k = 1:
+Stalker
+
+[PredictMovieScore] Movie = CodeUnknown; Name = Cooper; k = 10:
+6.60132
+
+[RecommendByContent] Name = Sonia:
+Carrie
+
+[RecommendByCF] Name = Derrick; k = 2:
+PinkFlamingos
+
+[RecommendByCF] Name = Karina; k = 1:
+SongsfromtheSecondFloor
+
+[RecommendByCF] Name = Alvaro; k = 7:
+Notorious
+
+[RecommendByContent] Name = Dorothy:
+ChelseaGirls
+
+[RecommendByContent] Name = Charles:
+PatherPanchali
+
+[RecommendByCF] Name = Galilea; k = 3:
+Hunger
+
+[RecommendByContent] Name = Elaine:
+MammaRoma
+
+[PredictMovieScore] Movie = Casablanca; Name = Andy; k = 4:
+5.75602
+
+[RecommendByCF] Name = Maliah; k = 5:
+TropicalMalady
+
+[RecommendByCF] Name = Ace; k = 4:
+ChronicleofaSummer
+
+[RecommendByCF] Name = Roger; k = 4:
+TalktoHer
+
+[RecommendByContent] Name = Alannah:
+AliceintheCities
+
+[RecommendByCF] Name = Daisy; k = 5:
+ThePiano
+
+[RecommendByCF] Name = Vienna; k = 2:
+TheDivingBellandtheButterfly
+
+[RecommendByCF] Name = Joyce; k = 10:
+TheWindWillCarryUs
+
+[RecommendByCF] Name = Lorelai; k = 9:
+DieHard
+
+[PredictMovieScore] Movie = NostalgiafortheLight; Name = Cohen; k = 8:
+4.98525
+
+[RecommendByContent] Name = Skyla:
+Aparajito
+
+[RecommendByContent] Name = Reginald:
+NightoftheLivingDead
+
+[RecommendByCF] Name = Roger; k = 2:
+TheDivingBellandtheButterfly
+
+[RecommendByCF] Name = Cassius; k = 7:
+CloseEncountersoftheThirdKind
+
+[RecommendByCF] Name = Samira; k = 6:
+BrokenBlossoms
+
+[RecommendByContent] Name = Aspen:
+Deliverance
+
+[RecommendByCF] Name = Andy; k = 9:
+SomeLikeitHot
+
+[PredictMovieScore] Movie = MyLifeasaDog; Name = Charley; k = 2:
+5.99494
+
+[PredictMovieScore] Movie = Rashomon; Name = Mckenna; k = 10:
+5.60036
+
+[PredictMovieScore] Movie = TheGeneral; Name = Layne; k = 10:
+6.89741
+
+[RecommendByContent] Name = Alonzo:
+TheRisetoPowerofLouisXIV
+
+[RecommendByCF] Name = Lachlan; k = 7:
+AMomentofInnocence
+
+[PredictMovieScore] Movie = BouduSavedfromDrowning; Name = Anya; k = 3:
+6.33469
+
+[RecommendByContent] Name = Clark:
+BytheBluestofSeas
+
+[RecommendByCF] Name = Cassius; k = 8:
+CloseEncountersoftheThirdKind
+
+[RecommendByCF] Name = Leif; k = 1:
+TheRedCircle
+
+[PredictMovieScore] Movie = ReservoirDogs; Name = Amaris; k = 4:
+6.73657
+
+[PredictMovieScore] Movie = RequiemforaDream; Name = Kaitlyn; k = 7:
+4.71647
+
+[RecommendByContent] Name = Douglas:
+TheGraduate
+
+[PredictMovieScore] Movie = TheGrapesofWrath; Name = Nola; k = 6:
+6.00832
+
+[RecommendByCF] Name = Elaine; k = 4:
+KingKong
+
+[RecommendByContent] Name = Lilyana:
+TheQuietMan
+
+[RecommendByCF] Name = Milena; k = 5:
+BrokenBlossoms
+
+[PredictMovieScore] Movie = BlowOut; Name = Alena; k = 10:
+4.99174
+
+[PredictMovieScore] Movie = MotherIndia; Name = Nolan; k = 4:
+4.25487
+
+[RecommendByCF] Name = Dustin; k = 10:
+ChelseaGirls
+
+[RecommendByCF] Name = Nola; k = 7:
+TheConformist
+
+[RecommendByContent] Name = Charlotte:
+CarnivalofSouls
+
+[RecommendByContent] Name = Westley:
+WildatHeart
+
+[RecommendByCF] Name = Isaac; k = 2:
+MadMax2
+
+[PredictMovieScore] Movie = NightandFog; Name = Blakely; k = 6:
+6.83736
+
+[PredictMovieScore] Movie = DownbyLaw; Name = Alanna; k = 9:
+5.66561
+
+[PredictMovieScore] Movie = Sideways; Name = Braylon; k = 7:
+5.13864
+
+[RecommendByCF] Name = Felipe; k = 1:
+Yojimbo
+
+[PredictMovieScore] Movie = The47Ronin; Name = Madeleine; k = 2:
+5.51631
+
+[RecommendByContent] Name = Maverick:
+WestSideStory
+
+[RecommendByCF] Name = Cassius; k = 3:
+Arrebato
+
+[RecommendByCF] Name = Lachlan; k = 4:
+AMomentofInnocence
+
+[RecommendByCF] Name = Laylah; k = 8:
+BloodSimple
+
+[RecommendByCF] Name = Priscilla; k = 3:
+CloselyWatchedTrains
+
+[PredictMovieScore] Movie = IAmCuba; Name = Zariah; k = 5:
+6.80316
+
+[RecommendByCF] Name = Ashlynn; k = 8:
+OntheWaterfront
+
+[PredictMovieScore] Movie = EntertheDragon; Name = Priscilla; k = 5:
+6.57793
+
+[PredictMovieScore] Movie = MeshesoftheAfternoon; Name = Dorothy; k = 3:
+6.32922
+
+[RecommendByCF] Name = Jasper; k = 10:
+Sholay
+
+[PredictMovieScore] Movie = DoubleIndemnity; Name = Anthony; k = 6:
+6.82915
+
+[RecommendByContent] Name = Blakely:
+ChelseaGirls
+
+[RecommendByContent] Name = Jaiden:
+TheLastLaugh
+
+[RecommendByContent] Name = Aitana:
+StreetAngel
+
+[PredictMovieScore] Movie = TheTigerofEschnapur; Name = Juan; k = 8:
+8.00024
+
+[RecommendByCF] Name = Darwin; k = 5:
+DogDayAfternoon
+
+[RecommendByCF] Name = Caylee; k = 3:
+Shoah
+
+[PredictMovieScore] Movie = ASeparation; Name = Alannah; k = 10:
+6.99929
+
+[PredictMovieScore] Movie = Sunrise; Name = Jayde; k = 8:
+5.87312
+
+[RecommendByCF] Name = Eliana; k = 10:
+NorthbyNorthwest
+
+[RecommendByContent] Name = Aiden:
+Ugetsumonogatari
+
+[RecommendByCF] Name = Luna; k = 5:
+PrincessMononoke
+
+[RecommendByCF] Name = Anne; k = 10:
+TheThirdMan
+
+[RecommendByCF] Name = Charleigh; k = 3:
+TheThiefofBagdad
+
+[PredictMovieScore] Movie = MyDarlingClementine; Name = Jayde; k = 1:
+10
+
+[PredictMovieScore] Movie = TheKillingofaChineseBookie; Name = Westley; k = 3:
+6.00792
+
+[PredictMovieScore] Movie = Dekalog; Name = Alyssa; k = 6:
+6.16041
+
+[PredictMovieScore] Movie = Subarnarekha; Name = Adriel; k = 9:
+5.99482
+
+[RecommendByCF] Name = Kyson; k = 9:
+Yiyi
+
+[PredictMovieScore] Movie = ThePuppetmaster; Name = Amaya; k = 5:
+6.79364
+
+[RecommendByContent] Name = Maximo:
+LetterfromanUnknownWoman
+
+[RecommendByContent] Name = Collin:
+Halloween
+
+[PredictMovieScore] Movie = StreetAngel; Name = Amaris; k = 2:
+5.49377
+
+[PredictMovieScore] Movie = APlaceintheSun; Name = Cheyenne; k = 5:
+5.40365
+
+[RecommendByContent] Name = Annabella:
+NearDark
+
+[RecommendByCF] Name = Allyson; k = 8:
+TheCrimeofMonsieurLange
+
+[RecommendByCF] Name = Zoey; k = 7:
+MyOwnPrivateIdaho
+
+[PredictMovieScore] Movie = OnceUponaTimeinAmerica; Name = Ahmed; k = 8:
+6.24507
+
+[RecommendByCF] Name = Cassius; k = 7:
+CloseEncountersoftheThirdKind
+
+[PredictMovieScore] Movie = TheExterminatingAngel; Name = Aitana; k = 2:
+10
+
+[RecommendByCF] Name = Angel; k = 5:
+Diary
+
+[RecommendByContent] Name = Carl:
+WeAllLovedEachOtherSoMuch
+
+[RecommendByCF] Name = Lorenzo; k = 1:
+TheNavigator
+
+[RecommendByContent] Name = Bonnie:
+TheMatrix
+
+[RecommendByContent] Name = Maximo:
+LetterfromanUnknownWoman
+
+[PredictMovieScore] Movie = Lola; Name = Sky; k = 8:
+5.2563
+
+[PredictMovieScore] Movie = TheOutlawJoseyWales; Name = Salvador; k = 10:
+6.39282
+
+[RecommendByCF] Name = Julieta; k = 3:
+RoccoandHisBrothers
+
+[RecommendByCF] Name = Payton; k = 3:
+TheLadyEve
+
+[RecommendByContent] Name = Brooklynn:
+ButchCassidyandtheSundanceKid
+
+[RecommendByCF] Name = Jayde; k = 9:
+AmericanBeauty
+
+[PredictMovieScore] Movie = ToLive; Name = Sloane; k = 9:
+5.55838
+
+[RecommendByContent] Name = Eduardo:
+MadMax_FuryRoad
+
+[RecommendByContent] Name = Koa:
+ToLive
+
+[RecommendByCF] Name = Alia; k = 1:
+Husbands
+
+[PredictMovieScore] Movie = MemoriesofMurder; Name = Destiny; k = 7:
+5.86251
+
+[RecommendByCF] Name = Destiny; k = 1:
+BacktotheFuture
+
+[PredictMovieScore] Movie = BigDealonMadonnaStreet; Name = Titan; k = 6:
+6.84688
+
+[RecommendByContent] Name = Milo:
+TheLeopard
+
+[RecommendByCF] Name = Laylah; k = 8:
+BloodSimple
+
+[RecommendByCF] Name = Kylie; k = 9:
+BladeRunner
+
+[RecommendByCF] Name = Yahir; k = 6:
+TheDarkKnight
+
+[PredictMovieScore] Movie = EternalSunshineoftheSpotlessMind; Name = Ariadne; k = 8:
+6.12911
+
+[RecommendByCF] Name = Kamryn; k = 10:
+TheWindWillCarryUs
+
+[RecommendByCF] Name = Arely; k = 2:
+Aliens
+
+[RecommendByContent] Name = Sophia:
+EdwardScissorhands
+
+[PredictMovieScore] Movie = ZabriskiePoint; Name = Karina; k = 5:
+4.99474
+
+[RecommendByCF] Name = Adriel; k = 1:
+AndreiRublev
+
+[PredictMovieScore] Movie = Olympia; Name = Liana; k = 10:
+6.70335
+
+[PredictMovieScore] Movie = TheDeerHunter; Name = Eduardo; k = 9:
+7.1103
+
+[RecommendByCF] Name = Rocky; k = 5:
+The47Ronin
+
+[PredictMovieScore] Movie = Shadows; Name = Kenia; k = 8:
+6.0019
+
+[PredictMovieScore] Movie = ColossalYouth; Name = Trinity; k = 5:
+6.0108
+
+[RecommendByContent] Name = Kayden:
+Crumb
+
+[RecommendByCF] Name = Ashlynn; k = 6:
+ArmyofShadows
+
+[PredictMovieScore] Movie = Rashomon; Name = Ace; k = 7:
+5.56383
+
+[RecommendByCF] Name = Felipe; k = 8:
+AAmericaninParisn
+
+[RecommendByCF] Name = Ryland; k = 4:
+Strike
+
+[PredictMovieScore] Movie = TheTreeofWoodenClogs; Name = Belle; k = 1:
+7
+
+[RecommendByContent] Name = Jaxxon:
+ThePhantomCarriage
+
+[RecommendByContent] Name = Chloe:
+Ninotchka
+
+[RecommendByCF] Name = Aiyana; k = 10:
+TheBigSleep
+
+[PredictMovieScore] Movie = PickuponSouthStreet; Name = Kassandra; k = 4:
+5.75286
+
+[RecommendByContent] Name = Corbin:
+HowGreenWasMyValley
+
+[PredictMovieScore] Movie = DawnoftheDead; Name = Darwin; k = 10:
+5.99959
+
+[RecommendByCF] Name = Ellie; k = 2:
+TheSacrifice
+
+[PredictMovieScore] Movie = BarrenLives; Name = Amiya; k = 2:
+7.50419
+
+[RecommendByContent] Name = Ronin:
+TheCranesAreFlying
+
+[PredictMovieScore] Movie = TheUmbrellasofCherbourg; Name = Beckham; k = 1:
+6
+
+[RecommendByContent] Name = Mariam:
+Z
+
+[PredictMovieScore] Movie = Salesman; Name = Allyson; k = 10:
+6.19834
+
+[PredictMovieScore] Movie = IndiaSong; Name = Jaxx; k = 5:
+4.79932
+
+[RecommendByCF] Name = Wynter; k = 7:
+DogDayAfternoon
+
+[PredictMovieScore] Movie = DirtyHarry; Name = Arlo; k = 1:
+1
+
+[PredictMovieScore] Movie = ATouchofZen; Name = Alannah; k = 5:
+5.80751
+
+[RecommendByCF] Name = Eduardo; k = 8:
+PhantomoftheParadise
+
+[RecommendByContent] Name = Malakai:
+Sanssoleil
+
+[PredictMovieScore] Movie = GentlemenPreferBlondes; Name = Myla; k = 3:
+1.66653
+
+[PredictMovieScore] Movie = TheBirds; Name = Kaelyn; k = 10:
+6.39156
+
+[PredictMovieScore] Movie = 2001_ASpaceOdyssey; Name = Ahmed; k = 6:
+6.99966
+
+[RecommendByContent] Name = Julieta:
+HighandLow
+
+[RecommendByCF] Name = Amiya; k = 5:
+ThroughtheOliveTrees
+
+[RecommendByContent] Name = Ashton:
+LoveandDeath
+
+[RecommendByCF] Name = Cassius; k = 2:
+ToukiBouki
+
+[RecommendByContent] Name = Clark:
+BytheBluestofSeas
+
+[RecommendByCF] Name = Mathias; k = 3:
+BouduSavedfromDrowning
+
+[PredictMovieScore] Movie = PortraitofJason; Name = Jaiden; k = 2:
+6.50098
+
+[RecommendByContent] Name = Juan:
+AAngelatMyTablen
+
+[RecommendByCF] Name = Evalyn; k = 1:
+HoopDreams
+
+[RecommendByCF] Name = Jeremiah; k = 5:
+JohnnyGuitar
+
+[RecommendByContent] Name = Zainab:
+TheGodfather
+
+[PredictMovieScore] Movie = Gertrud; Name = Luca; k = 10:
+4.3006
+
+[RecommendByContent] Name = Laylah:
+DayofWrath
+
+[RecommendByCF] Name = Archer; k = 4:
+Suspiria
+
+[RecommendByContent] Name = Rowan:
+Network
+
+[PredictMovieScore] Movie = BonnieandClyde; Name = Draven; k = 1:
+9
+
+[PredictMovieScore] Movie = ThePuppetmaster; Name = Sophia; k = 9:
+6.55356
+
+[RecommendByCF] Name = Faye; k = 8:
+Performance
+

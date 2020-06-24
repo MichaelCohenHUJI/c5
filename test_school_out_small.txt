@@ -1,0 +1,1500 @@
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Brayson; k = 1:
+8
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = London; k = 2:
+3
+
+[PredictMovieScore] Movie = Shadows; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = ArabianNights; Name = Brayson; k = 1:
+8
+
+[PredictMovieScore] Movie = Fargo; Name = Randy; k = 2:
+1
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = Shadows; Name = Brayson; k = 1:
+8
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Brayson; k = 1:
+8
+
+[PredictMovieScore] Movie = Shadows; Name = Brayson; k = 1:
+8
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Randy; k = 2:
+5.16996
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = Shadows; Name = Randy; k = 1:
+8
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = ArabianNights; Name = Randy; k = 2:
+4.65128
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = Fargo; Name = London; k = 1:
+7
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Christopher; k = 1:
+1
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[PredictMovieScore] Movie = Fargo; Name = Christopher; k = 1:
+1
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[PredictMovieScore] Movie = Fargo; Name = Brayson; k = 1:
+2
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByContent] Name = London:
+Shadows
+
+[PredictMovieScore] Movie = ArabianNights; Name = Christopher; k = 1:
+1
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Randy; k = 2:
+5.16996
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = London; k = 2:
+3
+
+[PredictMovieScore] Movie = Fargo; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = London:
+Shadows
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Christopher; k = 1:
+1
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = London; k = 1:
+3
+
+[PredictMovieScore] Movie = ArabianNights; Name = London; k = 2:
+4.91355
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = Fargo; Name = Randy; k = 1:
+1
+
+[PredictMovieScore] Movie = ArabianNights; Name = Brayson; k = 1:
+8
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Brayson; k = 1:
+8
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Christopher; k = 1:
+1
+
+[PredictMovieScore] Movie = Fargo; Name = London; k = 2:
+7
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = ArabianNights; Name = London; k = 2:
+4.91355
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = ArabianNights; Name = Randy; k = 2:
+4.65128
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[PredictMovieScore] Movie = Shadows; Name = London; k = 2:
+4.95034
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Brayson; k = 1:
+8
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = London; k = 2:
+4.61717
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByContent] Name = London:
+Shadows
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = London; k = 2:
+4.61717
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = Shadows; Name = Randy; k = 2:
+4.58691
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Brayson; k = 1:
+8
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Randy; k = 2:
+8
+
+[PredictMovieScore] Movie = Fargo; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = London:
+Shadows
+
+[PredictMovieScore] Movie = Fargo; Name = Brayson; k = 1:
+2
+
+[PredictMovieScore] Movie = ArabianNights; Name = Brayson; k = 1:
+8
+
+[PredictMovieScore] Movie = ArabianNights; Name = Brayson; k = 1:
+8
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = ArabianNights; Name = London; k = 2:
+4.91355
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = London; k = 2:
+3
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = ArabianNights; Name = Randy; k = 2:
+4.65128
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = London; k = 2:
+3
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Christopher; k = 1:
+1
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Brayson; k = 1:
+8
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Christopher; k = 1:
+1
+
+[PredictMovieScore] Movie = Fargo; Name = Christopher; k = 1:
+1
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[PredictMovieScore] Movie = ArabianNights; Name = Christopher; k = 1:
+1
+
+[PredictMovieScore] Movie = Fargo; Name = Brayson; k = 1:
+2
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = ArabianNights; Name = London; k = 1:
+3
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = ArabianNights; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = Fargo; Name = Christopher; k = 1:
+1
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[PredictMovieScore] Movie = Shadows; Name = Randy; k = 1:
+8
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Randy; k = 2:
+5.16996
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = Shadows; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[PredictMovieScore] Movie = Fargo; Name = Brayson; k = 1:
+2
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = London; k = 2:
+4.61717
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = Shadows; Name = Brayson; k = 1:
+8
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = London; k = 2:
+4.61717
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = Fargo; Name = London; k = 2:
+7
+
+[PredictMovieScore] Movie = Fargo; Name = Brayson; k = 1:
+2
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = ArabianNights; Name = Christopher; k = 1:
+1
+
+[PredictMovieScore] Movie = Shadows; Name = Christopher; k = 1:
+1
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Brayson; k = 1:
+8
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = ArabianNights; Name = Christopher; k = 1:
+1
+
+[PredictMovieScore] Movie = Shadows; Name = Randy; k = 2:
+4.58691
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = Shadows; Name = Brayson; k = 1:
+8
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = Shadows; Name = London; k = 2:
+4.95034
+
+[PredictMovieScore] Movie = ArabianNights; Name = Brayson; k = 1:
+8
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[PredictMovieScore] Movie = Shadows; Name = Christopher; k = 1:
+1
+
+[PredictMovieScore] Movie = Fargo; Name = London; k = 2:
+7
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = London; k = 1:
+3
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[PredictMovieScore] Movie = ArabianNights; Name = Randy; k = 2:
+4.65128
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = ArabianNights; Name = London; k = 2:
+4.91355
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = Shadows; Name = London; k = 2:
+4.95034
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Randy; k = 2:
+8
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = Shadows; Name = Randy; k = 1:
+8
+
+[PredictMovieScore] Movie = Fargo; Name = London; k = 1:
+7
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Christopher; k = 1:
+1
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = ArabianNights; Name = Brayson; k = 1:
+8
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[PredictMovieScore] Movie = Fargo; Name = London; k = 1:
+7
+
+[PredictMovieScore] Movie = ArabianNights; Name = London; k = 2:
+4.91355
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Brayson; k = 1:
+8
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = ArabianNights; Name = London; k = 2:
+4.91355
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = ArabianNights; Name = London; k = 2:
+4.91355
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[PredictMovieScore] Movie = Fargo; Name = Brayson; k = 1:
+2
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = Shadows; Name = London; k = 2:
+4.95034
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = London; k = 2:
+3
+
+[PredictMovieScore] Movie = ArabianNights; Name = London; k = 1:
+3
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = Shadows; Name = Christopher; k = 1:
+1
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Randy; k = 1:
+8
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = London; k = 1:
+3
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = ArabianNights; Name = London; k = 2:
+4.91355
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[PredictMovieScore] Movie = ArabianNights; Name = Brayson; k = 1:
+8
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Randy; k = 1:
+8
+
+[PredictMovieScore] Movie = Fargo; Name = Brayson; k = 1:
+2
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = Shadows; Name = Randy; k = 2:
+4.58691
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Brayson; k = 1:
+8
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = ArabianNights; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[PredictMovieScore] Movie = Shadows; Name = London; k = 1:
+3
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = ArabianNights; Name = Christopher; k = 1:
+1
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Randy; k = 2:
+5.16996
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Christopher; k = 1:
+1
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[PredictMovieScore] Movie = ArabianNights; Name = Randy; k = 1:
+8
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = Shadows; Name = Brayson; k = 1:
+8
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = ArabianNights; Name = Christopher; k = 1:
+1
+
+[PredictMovieScore] Movie = Shadows; Name = London; k = 1:
+3
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[PredictMovieScore] Movie = Shadows; Name = Brayson; k = 1:
+8
+
+[PredictMovieScore] Movie = Fargo; Name = London; k = 2:
+7
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Randy; k = 1:
+8
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[PredictMovieScore] Movie = Shadows; Name = Randy; k = 1:
+8
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = London:
+Shadows
+
+[PredictMovieScore] Movie = ArabianNights; Name = Brayson; k = 1:
+8
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Brayson; k = 1:
+8
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Christopher; k = 1:
+1
+
+[PredictMovieScore] Movie = Fargo; Name = Christopher; k = 1:
+1
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = ArabianNights; Name = Randy; k = 1:
+8
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = Shadows; Name = London; k = 2:
+4.95034
+
+[RecommendByContent] Name = London:
+Shadows
+
+[PredictMovieScore] Movie = ArabianNights; Name = Christopher; k = 1:
+1
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = London; k = 2:
+3
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = Shadows; Name = Randy; k = 2:
+4.58691
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = London; k = 2:
+3
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = Fargo; Name = Randy; k = 2:
+1
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = Shadows; Name = Christopher; k = 1:
+1
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = London; k = 2:
+4.61717
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[PredictMovieScore] Movie = ArabianNights; Name = London; k = 1:
+3
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = Shadows; Name = London; k = 1:
+3
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = London:
+Shadows
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Brayson; k = 1:
+8
+
+[PredictMovieScore] Movie = Fargo; Name = Christopher; k = 1:
+1
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = Shadows; Name = Christopher; k = 1:
+1
+
+[PredictMovieScore] Movie = Shadows; Name = London; k = 2:
+4.95034
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = ArabianNights; Name = London; k = 1:
+3
+
+[RecommendByContent] Name = London:
+Shadows
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Randy; k = 2:
+8
+
+[RecommendByCF] Name = Christopher; k = 1:
+Fargo
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = London; k = 1:
+3
+
+[RecommendByContent] Name = London:
+Shadows
+
+[PredictMovieScore] Movie = Shadows; Name = Brayson; k = 1:
+8
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = London; k = 1:
+ArabianNights
+
+[RecommendByCF] Name = Randy; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Brayson; k = 1:
+8
+
+[PredictMovieScore] Movie = WerckmeisterHarmonies; Name = Randy; k = 1:
+8
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByContent] Name = Randy:
+AAmericaninParisn
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByContent] Name = London:
+Shadows
+
+[PredictMovieScore] Movie = Fargo; Name = London; k = 1:
+7
+
+[RecommendByContent] Name = London:
+Shadows
+
+[PredictMovieScore] Movie = Shadows; Name = Christopher; k = 1:
+1
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByContent] Name = Brayson:
+Shadows
+
+[RecommendByCF] Name = London; k = 2:
+Shadows
+
+[PredictMovieScore] Movie = Shadows; Name = Christopher; k = 1:
+1
+
+[RecommendByCF] Name = Brayson; k = 1:
+ArabianNights
+
+[PredictMovieScore] Movie = ArabianNights; Name = Christopher; k = 1:
+1
+
+[RecommendByContent] Name = London:
+Shadows
+
+[PredictMovieScore] Movie = AAmericaninParisn; Name = Brayson; k = 1:
+8
+
+[PredictMovieScore] Movie = Fargo; Name = London; k = 2:
+7
+
+[RecommendByContent] Name = Christopher:
+Fargo
+
+[RecommendByCF] Name = Randy; k = 2:
+AAmericaninParisn
+
