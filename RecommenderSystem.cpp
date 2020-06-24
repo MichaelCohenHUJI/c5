@@ -127,10 +127,10 @@ std::string RecommenderSystem::recommendByContent(const std::string &userName)
     {// normalization:
         std::vector<double> curNorm = _getNorm(userName);
         // create pref vector:
-        printdVec(curNorm);
+//        printdVec(curNorm);
 //        std::cout << _movieNames[0] << std::endl;
         std::vector<double> prefVec = _createPrefVec(userName, curNorm);
-        printdVec(prefVec);
+//        printdVec(prefVec);
         return _findMovieByPref(userName, prefVec).name;
     }
     else
@@ -272,7 +272,7 @@ RecommenderSystem::predictMovieScoreForUser(const std::string &movieName, const 
             if (_clients[userName][i] != 0.0)
             {
                 clientHistory[_movieNames[i]] = _clients[userName][i];
-                std::cout << _movieNames[i] << " " << _clients[userName][i];
+//                std::cout << _movieNames[i] << " " << _clients[userName][i];
             }
         }
         std::vector<resMovie> sorted = _findMovieByHistory(_movies[movieName], clientHistory);
