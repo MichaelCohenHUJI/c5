@@ -282,7 +282,7 @@ RecommenderSystem::predictMovieScoreForUser(const std::string &movieName, const 
             numerator += closest.score * clientHistory[closest.name];
             denominator += closest.score;
         }
-        return numerator * (1 / denominator);
+        return numerator / denominator;
     }
     else
     {
