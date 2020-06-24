@@ -44,8 +44,8 @@ void printStrVec(const std::vector<std::string> &vec)
 }
 
 
-int RecommenderSystem::loadData(std::string &moviesAttributesFilePath,
-                                std::string &userRanksFilePath)
+int RecommenderSystem::loadData(const std::string &moviesAttributesFilePath,
+                                const std::string &userRanksFilePath)
 {
     std::ifstream movies(moviesAttributesFilePath);
     if (movies)

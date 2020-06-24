@@ -33,7 +33,7 @@ private:
     std::vector<resMovie> _findMovieByHistory(const std::vector<double> &movieAttributes,
                                  const std::map<std::string, double> &userHistory);
 public:
-    int loadData(std::string &moviesAttributesFilePath, std::string &userRanksFilePath);
+    int loadData(const std::string &moviesAttributesFilePath, const std::string &userRanksFilePath);
     std::string recommendByContent(const std::string &userName);
     double predictMovieScoreForUser(const std::string &movieName, const std::string &userName, int k);
     std::string recommendByCF(const std::string &userName, int k);
