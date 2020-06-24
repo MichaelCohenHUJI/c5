@@ -5,7 +5,7 @@
  *
  * @section USAGE
  * Compile and run :)
- * g++ -Wall -Wvla -Wextra -Werror -g -std=c++17 TestFactory.cpp TesterCommon.h TesterCommon.cpp -o TestFactory
+ * g++ -Wall -g -std=c++17 TestFactory.cpp TesterCommon.h TesterCommon.cpp -o TestFactory
  * TestFactory <movie file path> <user file path>
  * e.g. TestFactory movies_big.txt ranks_big.txt
  *
@@ -36,6 +36,13 @@ typedef std::pair<std::string, int> UserWithRatingCount;
 void loadUsers(const std::string &path, std::vector<UserWithRatingCount> &vec)
 {
 	std::ifstream file(path);
+
+	if (!file.is_open())
+	{
+		std::cerr << "Problem opening user rank file in path" << path << std::endl;
+		exit(EXIT_FAILURE);
+	}
+
 	std::string line;
 	std::getline(file, line);
 	while (std::getline(file, line))
@@ -60,6 +67,13 @@ void loadUsers(const std::string &path, std::vector<UserWithRatingCount> &vec)
 void loadMovies(const std::string &path, std::vector<std::string> &vec)
 {
 	std::ifstream file(path);
+
+	if (!file.is_open())
+	{
+		std::cerr << "Problem opening movie file in path: " << path << std::endl;
+		exit(EXIT_FAILURE);
+	}
+
 	std::string line;
 	while (std::getline(file, line))
 	{
@@ -78,6 +92,8 @@ int main(int argc, char **argv)
 		          << std::endl;
 		exit(EXIT_FAILURE);
 	}
+
+	std::cout << "Running..." << std::endl;
 
 	std::vector<std::string> moviesTitles;
 	std::vector<UserWithRatingCount> usersWithRatingCount;
@@ -114,9 +130,13 @@ int main(int argc, char **argv)
 			continue;
 		}
 
-		const int unratedMovieCount =
-				(int) moviesTitles.size() - usersWithRatingCount[userId].second - 1;
-		const int maxK = std::min(MAX_K, unratedMovieCount);
+		const int ratedMovieCount = usersWithRatingCount[userId].second;
+		const int maxK = std::min(MAX_K, ratedMovieCount - 1);
+
+		if (maxK == 1)
+		{
+			continue;
+		}
 
 		std::uniform_int_distribution<int> kDist(1, maxK);
 		int k = kDist(generator);
@@ -132,4 +152,6 @@ int main(int argc, char **argv)
 
 		testOut << opTypeDesc << " " << movieTitle << " " << userName << " " << k << std::endl;
 	}
+
+	std::cout << "Finished. Output in file: " << TEST_FACTORY_OUTPUT_FILE << std::endl;
 }

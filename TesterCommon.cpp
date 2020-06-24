@@ -19,7 +19,7 @@ TestOperationType decodeTestOperation(const std::string &desc)
 		return RecommendByContent;
 	}
 
-	std::cerr << "Unknown operation: " << desc << std::endl;
+	std::cerr << "Unknown test instruction: " << desc << std::endl;
 	exit(EXIT_FAILURE);
 }
 
@@ -34,14 +34,22 @@ std::string encodeTestOperation(const TestOperationType &type)
 		case RecommendByContent:
 			return OPERATION_RECOMMEND_BY_CONTENT;
 		default:
-			std::cerr << "Unknown operation type: " << type << std::endl;
+			std::cerr << "Unknown test instruction type: " << type << std::endl;
 			exit(EXIT_FAILURE);
 	}
 }
 
 void loadOperations(const std::string &path, std::vector<TestOperation> &vec)
 {
-	std::ifstream infile(path);
+	std::ifstream file(path);
+
+	if (!file.is_open())
+	{
+		std::cerr << "Problem opening test instruction file in path: "
+		          << path << std::endl;
+		exit(EXIT_FAILURE);
+	}
+
 	std::string line;
 
 	TestOperationType type;
@@ -50,7 +58,7 @@ void loadOperations(const std::string &path, std::vector<TestOperation> &vec)
 	std::string movieTitle;
 	int k;
 
-	while (std::getline(infile, line))
+	while (std::getline(file, line))
 	{
 		std::istringstream iss(line);
 		iss >> typeDesc;
