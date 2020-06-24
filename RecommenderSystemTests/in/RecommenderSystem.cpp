@@ -146,7 +146,7 @@ std::vector<double> RecommenderSystem::_getNorm(const std::string &user)
     if (n != 0.0)
     {
         avg = std::accumulate(_clients[user].begin(), _clients[user].end(), 0.0);
-        avg = avg * (1 / n);
+        avg = avg / n;
     }
     std::vector<double> curNorm(_clients[user]);
     for (double &elem : curNorm)
@@ -192,7 +192,7 @@ resMovie RecommenderSystem::_findMovieByPref(const std::string &user,
         if (_clients[user][i] == 0.0)
         {
             double normsProd = _norm(_movies[_movieNames[i]]) * prefNorm;
-            double curScore = _dotProd(_movies[_movieNames[i]], prefVec) * (1 / normsProd);
+            double curScore = _dotProd(_movies[_movieNames[i]], prefVec) / normsProd;
             if (curScore > closestScore)
             {
                 closestScore = curScore;
@@ -250,7 +250,7 @@ std::vector<resMovie> RecommenderSystem::_findMovieByHistory(const std::vector<d
     for (const auto& pair : userHistory)
     {
         double curNorm = _norm(_movies[pair.first]) * movieNorm;
-        double curScore = _dotProd(movieAttributes, _movies[pair.first]) * (1 / curNorm);
+        double curScore = _dotProd(movieAttributes, _movies[pair.first]) / curNorm;
         resMovie curMovie = {.score = curScore, .name = pair.first};
         res.push_back(curMovie);
     }
