@@ -12,7 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cff6f3b-7f8b-4868-a952-6673c8ead9fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecommenderSystem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/RecommenderSystem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecommenderSystem.h" beforeDir="false" afterPath="$PROJECT_DIR$/RecommenderSystem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecommenderSystemTests/in/PredictMovieScoreForUserM.exe" beforeDir="false" afterPath="$PROJECT_DIR$/RecommenderSystemTests/in/PredictMovieScoreForUserM.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecommenderSystemTests/in/PredictMovieScoreForUserS.exe" beforeDir="false" afterPath="$PROJECT_DIR$/RecommenderSystemTests/in/PredictMovieScoreForUserS.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecommenderSystemTests/in/RecommendByCF.exe" beforeDir="false" afterPath="$PROJECT_DIR$/RecommenderSystemTests/in/RecommendByCF.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecommenderSystemTests/in/RecommendByContent.exe" beforeDir="false" afterPath="$PROJECT_DIR$/RecommenderSystemTests/in/RecommendByContent.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RecommenderSystemTests/in/RecommenderSystem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/RecommenderSystemTests/in/RecommenderSystem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecommenderSystemTests/in/RecommenderSystem.h" beforeDir="false" afterPath="$PROJECT_DIR$/RecommenderSystemTests/in/RecommenderSystem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecommenderSystemTests/out/RecommendByCF_Big_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RecommenderSystemTests/out/RecommendByCF_Big_output.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="ex5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex5" TARGET_NAME="ex5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex5" RUN_TARGET_NAME="ex5">
@@ -56,7 +66,8 @@
       <updated>1592820926731</updated>
       <workItem from="1592820931020" duration="184000" />
       <workItem from="1592821167426" duration="40773000" />
-      <workItem from="1592911764785" duration="28676000" />
+      <workItem from="1592911764785" duration="37622000" />
+      <workItem from="1593075800986" duration="1771000" />
     </task>
     <servers />
   </component>
@@ -64,26 +75,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="492" y="283" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593074136585">
+      <screen x="0" y="0" width="1440" height="960" />
+    </state>
+    <state x="492" y="283" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.960@0.0.1440.960" timestamp="1593074136585" />
     <state x="501" y="235" key="FileChooserDialogImpl" timestamp="1592821101852">
       <screen x="0" y="0" width="1440" height="960" />
     </state>
     <state x="501" y="235" key="FileChooserDialogImpl/0.0.1440.960@0.0.1440.960" timestamp="1592821101852" />
-    <state width="674" height="254" key="GridCell.Tab.0.bottom" timestamp="1593002309453">
+    <state width="1395" height="254" key="GridCell.Tab.0.bottom" timestamp="1593067948040">
       <screen x="0" y="0" width="1440" height="960" />
     </state>
-    <state width="674" height="254" key="GridCell.Tab.0.bottom/0.0.1440.960@0.0.1440.960" timestamp="1593002309453" />
-    <state width="674" height="254" key="GridCell.Tab.0.center" timestamp="1593002309453">
+    <state width="1395" height="254" key="GridCell.Tab.0.bottom/0.0.1440.960@0.0.1440.960" timestamp="1593067948040" />
+    <state width="1395" height="254" key="GridCell.Tab.0.center" timestamp="1593067948040">
       <screen x="0" y="0" width="1440" height="960" />
     </state>
-    <state width="674" height="254" key="GridCell.Tab.0.center/0.0.1440.960@0.0.1440.960" timestamp="1593002309453" />
-    <state width="674" height="254" key="GridCell.Tab.0.left" timestamp="1593002309453">
+    <state width="1395" height="254" key="GridCell.Tab.0.center/0.0.1440.960@0.0.1440.960" timestamp="1593067948040" />
+    <state width="1395" height="254" key="GridCell.Tab.0.left" timestamp="1593067948039">
       <screen x="0" y="0" width="1440" height="960" />
     </state>
-    <state width="674" height="254" key="GridCell.Tab.0.left/0.0.1440.960@0.0.1440.960" timestamp="1593002309453" />
-    <state width="674" height="254" key="GridCell.Tab.0.right" timestamp="1593002309453">
+    <state width="1395" height="254" key="GridCell.Tab.0.left/0.0.1440.960@0.0.1440.960" timestamp="1593067948039" />
+    <state width="1395" height="254" key="GridCell.Tab.0.right" timestamp="1593067948040">
       <screen x="0" y="0" width="1440" height="960" />
     </state>
-    <state width="674" height="254" key="GridCell.Tab.0.right/0.0.1440.960@0.0.1440.960" timestamp="1593002309453" />
+    <state width="1395" height="254" key="GridCell.Tab.0.right/0.0.1440.960@0.0.1440.960" timestamp="1593067948040" />
     <state width="1395" height="314" key="GridCell.Tab.1.bottom" timestamp="1592911556120">
       <screen x="0" y="0" width="1440" height="960" />
     </state>
@@ -100,10 +115,10 @@
       <screen x="0" y="0" width="1440" height="960" />
     </state>
     <state width="1395" height="314" key="GridCell.Tab.1.right/0.0.1440.960@0.0.1440.960" timestamp="1592911556120" />
-    <state x="823" y="126" key="refactoring.ChangeSignatureDialog" timestamp="1592909640897">
+    <state x="126" y="145" width="515" height="709" key="refactoring.ChangeSignatureDialog" timestamp="1593075940856">
       <screen x="0" y="0" width="1440" height="960" />
     </state>
-    <state x="823" y="126" key="refactoring.ChangeSignatureDialog/0.0.1440.960@0.0.1440.960" timestamp="1592909640897" />
+    <state x="126" y="145" width="515" height="709" key="refactoring.ChangeSignatureDialog/0.0.1440.960@0.0.1440.960" timestamp="1593075940856" />
     <state x="383" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1592903705568">
       <screen x="0" y="0" width="1440" height="960" />
     </state>

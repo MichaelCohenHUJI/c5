@@ -4,34 +4,49 @@
 
 #include "RecommenderSystem.h"
 #include <fstream>
+#include <iostream>
 #include <sstream>
 #include <cmath>
 #include <algorithm>
 
 
-#define LOAD_FAIL -1
-#define LOAD_SUCCESS 0
+
 const std::string OPEN_FAIL = "Unable to open file ";
 const std::string NA = "NA";
 const std::string INVALID_USER = "USER NOT FOUND";
 
 
 /**
- * helper func, prints to cerr the error message regarding bad file path input
+ * helper func, prints to cerr the error message
  * @param msg
- * @param path
  */
 void printMessage(const std::string &msg, const std::string &path)
 {
     std::cerr << msg << path << std::endl;
 }
 
-/**
- * a function which loads data from movie attributes file and clients rank history
- * @param moviesAttributesFilePath
- * @param userRanksFilePath
- * @return 0 upon success, -1 upon failure
- */
+void printdVec(const std::vector<double> &vec)
+{
+    for (double elem : vec)
+    {
+        std::cout << elem << " ";
+    }
+    std::cout << std::endl;
+}
+
+void printStrVec(const std::vector<std::string> &vec)
+{
+    for (const std::string& elem : vec)
+    {
+        if (elem == "Aliens" || elem == "Partiedecampagne")
+        {
+            std::cout << elem << " ";
+        }
+    }
+    std::cout << std::endl;
+}
+
+
 int RecommenderSystem::loadData(const std::string &moviesAttributesFilePath,
                                 const std::string &userRanksFilePath)
 {
@@ -45,19 +60,19 @@ int RecommenderSystem::loadData(const std::string &moviesAttributesFilePath,
             std::istringstream lineStream(line);
             if (!(lineStream >> movieName))
             {
-                return LOAD_FAIL;
+                return 0;
             }
             double val;
-            while (lineStream >> val)
-            {
-                _movies[movieName].push_back(val);
-            }
+            while (lineStream >> val) _movies[movieName].push_back(val);
+//            std::cout << movieName << std::endl; //r
+//            printdVec(_movies[movieName]); //r
         }
+
     }
     else
     {
         printMessage(OPEN_FAIL, moviesAttributesFilePath);
-        return LOAD_FAIL;
+        return 0;
     }
     std::ifstream clients(userRanksFilePath);
     if (clients)
@@ -68,25 +83,25 @@ int RecommenderSystem::loadData(const std::string &moviesAttributesFilePath,
         {
             std::istringstream lineStream(line);
             if (i == 0)
-            { // parse first line, which is the line with the movie names
+            {
                 std::string val;
-                while (lineStream >> val)
-                {
-                    _movieNames.push_back(val);
-                }
+                while (lineStream >> val) _movieNames.push_back(val);
+                printStrVec(_movieNames); //r
             }
             else
-            { // parse the rest of the file line by line (client data)
+            {
                 std::string clientName;
                 if (!(lineStream >> clientName))
                 {
-                    return LOAD_FAIL;
+                    return 0;
                 }
                 std::string val;
                 while (lineStream >> val)
                 {
                     _updateUserRank(i, clientName, val);
                 }
+//                std::cout << clientName << " " << _clientsRanksNum[clientName] << std::endl; //r
+//                printdVec(_clients[clientName]); //r
             }
             i = 1;
         }
@@ -94,20 +109,14 @@ int RecommenderSystem::loadData(const std::string &moviesAttributesFilePath,
     else
     {
         printMessage(OPEN_FAIL, userRanksFilePath);
-        return LOAD_FAIL;
+        return 0;
     }
-    return LOAD_SUCCESS;
+    return 1;
 }
 
-/**
- * helper method, updates user's rank vector according to the input file
- * @param i number of the watched movies so far + 1
- * @param clientName
- * @param val current movie rank parsed from the file
- */
-void RecommenderSystem::_updateUserRank(int &i, const std::string &clientName,
-                                        const std::string &val)
-{
+void
+RecommenderSystem::_updateUserRank(int i, const std::string &clientName,
+                                   const std::string &val) {
     if (val == NA)
     {
         _clients[clientName].push_back(0.0);
@@ -115,25 +124,22 @@ void RecommenderSystem::_updateUserRank(int &i, const std::string &clientName,
     else
     {
         _clients[clientName].push_back(std::stod(val));
-        _clientsRanksNum[clientName] = i; // saves the number of movies watched
-        // by each client
+        _clientsRanksNum[clientName] = i;
         i++;
     }
 }
 
-/**
- * implementation of the content based algorithm, which uses existing ranks if movies and their
- * attributes to recommend a movie to the client
- * @param userName client name
- * @return movie recommended upon success, invalid client name message upon failure
- */
+
 std::string RecommenderSystem::recommendByContent(const std::string &userName)
 {
     if (_clients.count(userName))
     {// normalization:
         std::vector<double> curNorm = _getNormRankVec(userName);
         // create pref vector:
+//        printdVec(curNorm);
+//        std::cout << _movieNames[0] << std::endl;
         std::vector<double> prefVec = _createPrefVec(userName, curNorm);
+//        printdVec(prefVec);
         return _findMovieByPref(userName, prefVec).name;
     }
     else
@@ -142,11 +148,6 @@ std::string RecommenderSystem::recommendByContent(const std::string &userName)
     }
 }
 
-/**
- * helper method to calculate the normalized ranks vector of a given client
- * @param user client name
- * @return the normalized preference vector of the client
- */
 std::vector<double> RecommenderSystem::_getNormRankVec(const std::string &user)
 {
     double n = _clientsRanksNum[user];
@@ -154,7 +155,7 @@ std::vector<double> RecommenderSystem::_getNormRankVec(const std::string &user)
     if (n != 0.0)
     {
         avg = std::accumulate(_clients[user].begin(), _clients[user].end(), 0.0);
-        avg = avg / n;
+        avg = avg * (1 / n);
     }
     std::vector<double> curNorm(_clients[user]);
     for (double &elem : curNorm)
@@ -164,12 +165,6 @@ std::vector<double> RecommenderSystem::_getNormRankVec(const std::string &user)
     return curNorm;
 }
 
-/**
- * creates the preference vector of a given client based on past ranks and movie attributes
- * @param user client name
- * @param curNorm normalized preference vector of the client
- * @return the clients preference vector
- */
 std::vector<double>
 RecommenderSystem::_createPrefVec(const std::string &user, const std::vector<double> &curNorm)
 {
@@ -180,6 +175,8 @@ RecommenderSystem::_createPrefVec(const std::string &user, const std::vector<dou
         {
             double scalar = curNorm[i];
             std::vector<double> curMovie(_movies[_movieNames[i]]);
+//                std::cout << _movieNames[i] << std::endl;
+//                printdVec(_movies[_movieNames[i]]);
             for (double &elem : curMovie)
             {
                 elem *= scalar;
@@ -189,16 +186,10 @@ RecommenderSystem::_createPrefVec(const std::string &user, const std::vector<dou
                 prefVec[j] += curMovie[j];
             }
         }
-    }
+    }// finding the closest movie vector in the helper method
     return prefVec;
 }
 
-/**
- * finds the best movie to recommend based on the users' preference vector of movie attributes
- * @param user clients' name
- * @param prefVec clients' preference vector
- * @return a resMovie struct, contains the recommended movie's name and resemblance score
- */
 resMovie RecommenderSystem::_findMovieByPref(const std::string &user,
                                              const std::vector<double> &prefVec)
 {
@@ -210,7 +201,7 @@ resMovie RecommenderSystem::_findMovieByPref(const std::string &user,
         if (_clients[user][i] == 0.0)
         {
             double normsProd = _norm(_movies[_movieNames[i]]) * prefNorm;
-            double curScore = _dotProd(_movies[_movieNames[i]], prefVec) / normsProd;
+            double curScore = _dotProd(_movies[_movieNames[i]], prefVec) * (1 / normsProd);
             if (curScore > closestScore)
             {
                 closestScore = curScore;
@@ -222,12 +213,6 @@ resMovie RecommenderSystem::_findMovieByPref(const std::string &user,
     return out;
 }
 
-/**
- * helper method which calculate the dot product of two vectors
- * @param a first vector
- * @param b second vector
- * @return the dot product
- */
 double RecommenderSystem::_dotProd(const std::vector<double> &a, const std::vector<double> &b)
 {
     double out = 0.0;
@@ -238,11 +223,6 @@ double RecommenderSystem::_dotProd(const std::vector<double> &a, const std::vect
     return out;
 }
 
-/**
- * helper method which calculate the norm of a given vector
- * @param vec
- * @return the norm of vec
- */
 double RecommenderSystem::_norm(const std::vector<double> &vec)
 {
     double sum = 0.0;
@@ -252,24 +232,34 @@ double RecommenderSystem::_norm(const std::vector<double> &vec)
     }
     return sqrt(sum);
 }
+//
+//resMovie RecommenderSystem::_findMovieByHistory(const std::vector<double> &movieAttributes,
+//                                             const std::map<std::string, double> &userHistory)
+//{
+//    resMovie closest = {.score = -2.0, .name = NA};
+//    double movieNorm = _norm(movieAttributes);
+//    for (const auto& pair : userHistory)
+//    {
+//        double curNorm = _norm(_movies[pair.first]) * movieNorm;
+//        double curScore = _dotProd(movieAttributes, _movies[pair.first]) * (1 / curNorm);
+//        if (closest.score < curScore)
+//        {
+//            closest.score = curScore;
+//            closest.name = pair.first;
+//        }
+//    }
+//    return closest;
+//}
 
-/**
- * creates a vector of past ranked movies, sorted by resemblance to certain movie attributes, from
- * the closest to the most different one
- * @param movieAttributes the movie attributes according to which we sort
- * @param userHistory a map of the clients' past movies and their rankings
- * @return the sorted vector of past ranked movies in the above mentioned order
- */
-std::vector<resMovie>
-RecommenderSystem::_findMovieByHistory(const std::vector<double> &movieAttributes,
-                                       const std::map<std::string, double> &userHistory)
+std::vector<resMovie> RecommenderSystem::_findMovieByHistory(const std::vector<double> &movieAttributes,
+                                                             const std::map<std::string, double> &userHistory)
 {
     std::vector<resMovie> res;
     double movieNorm = _norm(movieAttributes);
     for (const auto& pair : userHistory)
     {
         double curNorm = _norm(_movies[pair.first]) * movieNorm;
-        double curScore = _dotProd(movieAttributes, _movies[pair.first]) / curNorm;
+        double curScore = _dotProd(movieAttributes, _movies[pair.first]) * (1 / curNorm);
         resMovie curMovie = {.score = curScore, .name = pair.first};
         res.push_back(curMovie);
     }
@@ -277,18 +267,9 @@ RecommenderSystem::_findMovieByHistory(const std::vector<double> &movieAttribute
     return res;
 }
 
-/**
- * predicts a clients rank to a movie they didn't watch based on past rankings of the k movies
- * with attributes closest to the movie we want to predict for. using the scoring method
- * described in the pdf.
- * @param movieName the movie for which we predict the clients' rank
- * @param userName client name
- * @param k
- * @return the prediction of the clients' rank to the movie. if userName/movieName are not in the
- * database, returns -1
- */
-double RecommenderSystem::predictMovieScoreForUser(const std::string &movieName,
-                                                   const std::string&userName, int k)
+double
+RecommenderSystem::predictMovieScoreForUser(const std::string &movieName, const std::string&userName,
+                                            int k)
 {
     if (_clients.count(userName) && _movies.count(movieName))
     {
@@ -300,6 +281,7 @@ double RecommenderSystem::predictMovieScoreForUser(const std::string &movieName,
             if (_clients[userName][i] != 0.0)
             {
                 clientHistory[_movieNames[i]] = _clients[userName][i];
+//                std::cout << _movieNames[i] << " " << _clients[userName][i];
             }
         }
         std::vector<resMovie> sorted = _findMovieByHistory(_movies[movieName], clientHistory);
@@ -309,7 +291,7 @@ double RecommenderSystem::predictMovieScoreForUser(const std::string &movieName,
             numerator += closest.score * clientHistory[closest.name];
             denominator += closest.score;
         }
-        return numerator / denominator;
+        return numerator * (1 / denominator);
     }
     else
     {
@@ -317,14 +299,6 @@ double RecommenderSystem::predictMovieScoreForUser(const std::string &movieName,
     }
 }
 
-/**
- * gets the best movie to recommend to the client by predicting users rank to the movies they did
- * not watch already and saving the best scoring movie between those. prediction is based on the
- * k closest ranked movies by the user, as mentioned in the method predictMovieScoreForUser.
- * @param userName clients name
- * @param k
- * @return the name of the movie for which our prediction is the highest
- */
 std::string RecommenderSystem::recommendByCF(const std::string &userName, int k)
 {
     if (_clients.count(userName))
@@ -336,8 +310,10 @@ std::string RecommenderSystem::recommendByCF(const std::string &userName, int k)
             if (_clients[userName][i] == 0.0)
             {
                 double curScore = predictMovieScoreForUser(_movieNames[i], userName, k);
-                if (bestScore < curScore)
+                if (curScore > bestScore && bestScore < 10.0)
                 {
+                    std::cout << _movieNames[i] << " " << curScore <<std::endl;
+                    std::cout << bestPrediction<< " " << bestScore << std::endl;
                     bestScore = curScore;
                     bestPrediction = _movieNames[i];
                 }
@@ -351,15 +327,21 @@ std::string RecommenderSystem::recommendByCF(const std::string &userName, int k)
     }
 }
 
-/**
- * comperator function for the resMovie struct, based on the movies' score.
- * @param lhs
- * @param rhs
- * @return the bool value of the statement lhs.score > rhs.score
- */
-bool RecommenderSystem::_compResMovie(const resMovie &lhs, const resMovie &rhs)
-{
+bool RecommenderSystem::_compResMovie(const resMovie &lhs, const resMovie &rhs) {
     return lhs.score > rhs.score;
 }
 
 
+
+int main()
+{
+
+    std::string moviePath = "../movies_big.txt";
+    std::string ranksPath = "../ranks_big.txt";
+    RecommenderSystem obj;
+    obj.loadData(moviePath, ranksPath);
+    std::cout << obj.predictMovieScoreForUser("Partiedecampagne", "Miles", 2) << std::endl;
+    std::cout << obj.predictMovieScoreForUser("Aliens", "Miles", 2) << std::endl;
+    std::cout << obj.recommendByCF("Miles", 2) << std::endl;
+
+}
